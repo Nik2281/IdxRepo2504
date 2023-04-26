@@ -1,5 +1,5 @@
 public with sharing class TestApex {
-    public TestApex() {
-        return null;
+    public static void TestApex() {
+        system.debug('Hello World !!'); 
     }
 }
